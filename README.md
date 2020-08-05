@@ -9,6 +9,8 @@
 
 ![logo](https://telegra.ph/file/0dd4a92bb893c1aaa6cee.jpg)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/EmiliaDevs/TGEMILIA.git)
+
 
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 
