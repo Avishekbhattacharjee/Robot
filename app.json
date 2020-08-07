@@ -30,7 +30,7 @@
       },
       "sw_api": {
          "description": "Spamwatch API Token - Get one from @SpamwatchSupport.",
-         "required": true,
+         "required": false,
          "value": ""
       },     
       "DEL_CMDS": {
@@ -40,7 +40,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "s"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
