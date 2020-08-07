@@ -30,7 +30,6 @@ from skylee import (
     SUPPORT_USERS,
     WHITELIST_USERS,
     WALL_API,
-    spamwtc,
 )
 from skylee.__main__ import STATS, USER_INFO, GDPR
 from skylee.modules.disable import DisableAbleCommandHandler
