@@ -308,21 +308,6 @@ def gbanlist(update, context):
 
 def check_and_ban(update, user_id, should_message=True):
 
-    try:
-        spmban = spamwtc.get_ban(int(user_id))
-        if spmban:
-            update.effective_chat.kick_member(user_id)
-            if should_message:
-                update.effective_message.reply_text(
-                    f"This person has been detected as spambot by @SpamWatch and has been removed!\nReason: <code>{spmban.reason}</code>",
-                    parse_mode=ParseMode.HTML,
-                )
-                return
-            else:
-                return
-    except Exception:
-        pass
-
     if sql.is_user_gbanned(user_id):
         update.effective_chat.kick_member(user_id)
         if should_message:
