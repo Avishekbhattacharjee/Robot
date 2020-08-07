@@ -129,17 +129,6 @@ def info(update, context):
     text += "\nNumber of profile pics: {}".format(
         context.bot.get_user_profile_photos(user.id).total_count
     )
-
-    try:
-        sw = spamwtc.get_ban(int(user.id))
-        if sw:
-            text += "\n\n<b>This person is banned in Spamwatch!</b>"
-            text += f"\nResason: <pre>{sw.reason}</pre>"
-        else:
-            pass
-    except:
-        pass  # Don't break on exceptions like if api is down?
-
     if user.id == OWNER_ID:
         text += "\n\nAye this guy is my owner.\nI would never do anything against him!"
 
