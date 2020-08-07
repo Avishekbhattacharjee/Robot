@@ -7,7 +7,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/843cdeb7f4124dd39eb3930939478259)](https://app.codacy.com/manual/starry69/skyleebot?utm_source=github.com&utm_medium=referral&utm_content=starry69/skyleebot&utm_campaign=Badge_Grade_Dashboard)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-![logo](https://telegra.ph/file/0dd4a92bb893c1aaa6cee.jpg)
+![Emilia](https://telegra.ph/file/cb07f342089998178652c.jpg)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/EmiliaDevs/TGEMILIA.git)
 
