@@ -13,12 +13,12 @@
          "description": "Set this to True if you want ! to be a command prefix along with /",
          "value": "True"
       },
-      "API_ID": {
+      "TL_APP_ID": {
          "description": "Get API_ID from my.telegram.org - this is used for telethon based modules.",
          "required": true,
          "value": ""
       },
-      "API_HASH": {
+      "TL_HASH": {
          "description": "Get API_HASH from my.telegram.org - this is used for telethon based modules.",
          "required": true,
          "value": ""
