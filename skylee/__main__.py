@@ -42,8 +42,8 @@ Any issues or need help related to me? join our group [shield hq](https://t.me/s
 Wanna Add me to your Group? Just click the button below!"""
 
 buttons = [[
-InlineKeyboardButton(text="Add to Group 👥", url="t.me/@MissEmiliaBott?startgroup=true"),
-InlineKeyboardButton(text="Updates 📢", url="https://t.me/@MissEmiliaBot")
+InlineKeyboardButton(text="Add to Group 👥", url="t.me/MissEmiliaBott?startgroup=true"),
+InlineKeyboardButton(text="Updates 📢", url="https://t.me/MissEmiliaBot")
                   ]]
 
 buttons += [[InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back")]]
