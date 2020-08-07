@@ -33,7 +33,7 @@ from skylee.modules.log_channel import loggable
 from skylee.modules.sql import users_sql
 from skylee.modules.connection import connected
  
-from alluka.modules.helper_funcs.alternate import send_message
+from skylee.modules.helper_funcs.alternate import send_message
  
 
 @run_async
