@@ -21,7 +21,7 @@ from telegram.utils.helpers import mention_html
 
 import skylee.modules.sql.welcome_sql as sql
 from skylee.modules.sql.global_bans_sql import is_user_gbanned
-from skylee import dispatcher, OWNER_ID, LOGGER, MESSAGE_DUMP, spamwtc
+from skylee import dispatcher, OWNER_ID, LOGGER, MESSAGE_DUMP
 from skylee.modules.helper_funcs.chat_status import user_admin, is_user_ban_protected
 from skylee.modules.helper_funcs.misc import build_keyboard, revert_buttons
 from skylee.modules.helper_funcs.msg_types import get_welcome_type
