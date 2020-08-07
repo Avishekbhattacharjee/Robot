@@ -41,14 +41,10 @@ Any issues or need help related to me? join our group [skylee support chat](http
 
 Wanna Add me to your Group? Just click the button below!"""
 
-buttons = [
-    [
-        InlineKeyboardButton(
-            text="Add to Group 👥", url="t.me/skylee_bot?startgroup=true"
-        ),
-        InlineKeyboardButton(text="Updates 📢", url="https://t.me/skyleeupdates"),
-    ]
-]
+buttons = [[
+InlineKeyboardButton(text="Add to Group 👥", url="t.me/shield_hq_bot?startgroup=true"),
+InlineKeyboardButton(text="Updates 📢", url="https://t.me/shield_hq")
+                  ]]
 
 buttons += [[InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back")]]
 
