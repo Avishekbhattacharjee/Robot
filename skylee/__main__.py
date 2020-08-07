@@ -39,8 +39,7 @@ i have lots of handy features, such as flood control, a warning system, a note k
 
 Any issues or need help related to me? join our group [skylee support chat](https://t.me/skyleebot).
 
-Wanna Add me to your Group? Just click the button below!
-"""
+Wanna Add me to your Group? Just click the button below!"""
 
 buttons = [
     [
